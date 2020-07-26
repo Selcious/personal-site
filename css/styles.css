@@ -1,0 +1,485 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #212121;
+}
+
+/* Navigation Styling */
+
+.navigasi {
+  padding: 0;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Righteous', cursive;
+}
+
+/* Title Body Styling */
+#title {
+  background: #ed213a;
+  background: linear-gradient(146deg, #ed213a 0%, #ed213a 48%, #93291e 100%);
+  color: #fff;
+}
+
+h1 {
+  padding: 0 20% 0 20%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.title-body {
+  padding: 10% 15%;
+  text-align: center;
+}
+
+.medsos-icon {
+  margin: 30px 10px 40px;
+  color: #fff;
+}
+
+.medsos-icon:hover {
+  color: #000;
+}
+
+.btn-contact {
+  border-radius: 50px;
+}
+
+.btn-contact:hover {
+  color: #ed213a;
+}
+
+/* about me styling */
+#about-me {
+  padding: 7% 15%;
+}
+
+#about-me h2 {
+  font-weight: 600;
+  text-align: center;
+}
+
+#about-me hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #c31432;
+  border-width: 2px;
+  width: 20%;
+  height: 2px;
+}
+
+.title-about {
+  margin-bottom: 50px;
+}
+
+.name {
+  margin-top: 20px;
+}
+
+.foto-profil {
+  width: 50%;
+  border-radius: 100%;
+  padding: 10px;
+  box-shadow: 0 -4px 10px 0 rgba(0, 0, 0, 0.2), -4px 10px 50px rgba(0, 0, 0, 0.19);
+  margin: 30px;
+}
+
+.img-about {
+  text-align: right;
+}
+
+.body-about p {
+  line-height: 2;
+  margin: 20px 0 20px;
+}
+
+.btn-cv {
+  border-radius: 0;
+  border-color: #c31432;
+  color: #c31432;
+  margin: 10px;
+}
+
+.btn-cv:hover {
+  background-color: #c31432;
+  border-color: #c31432;
+  margin: 10px;
+}
+
+.btn-hire {
+  border-radius: 0;
+  border-color: #ed213a;
+  background-color: #ed213a;
+  color: #fff;
+  margin: 10px;
+}
+
+/* My Service Styling */
+#my-service {
+  padding: 7% 15%;
+  background-color: #ed213a;
+}
+
+#my-service h2 {
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+
+#my-service hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #fff;
+  border-width: 2px;
+  width: 20%;
+  height: 2px;
+}
+
+.service {
+  text-align: center;
+  color: #fff;
+}
+
+.title-service {
+  margin-bottom: 50px;
+}
+
+.service-container {
+  padding: 10px;
+}
+
+.service-container-inside {
+  border: solid 1px #fff;
+}
+
+.service-container-inside h3 {
+  font-weight: 300;
+}
+
+.service-container-inside p {
+  font-size: 1rem;
+  padding: 10px 5px;
+}
+
+.service-container-inside:hover {
+  background-color: #fff;
+  color: #c31432;
+}
+
+.service-icon {
+  margin: 20px;
+}
+
+/* My Resume Styling */
+#my-resume {
+  padding: 7% 15%;
+}
+
+#my-resume h2 {
+  font-weight: 600;
+  text-align: center;
+}
+
+#my-resume hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #ed213a;
+  border-width: 2px;
+  width: 20%;
+  height: 2px;
+}
+
+.title-resume {
+  margin-bottom: 50px;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #ed213a;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.timeline-content {
+  position: relative;
+  width: 45%;
+  padding: 10px 30px;
+  border-radius: 4px;
+  background: #f5f5f5;
+  box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+}
+
+.date {
+  background: #ed213a;
+  display: inline-block;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+}
+
+.date-left {
+  top: 0;
+  right: 0;
+}
+
+.date-right {
+  top: 0;
+  left: 0;
+}
+
+.timeline-img {
+  width: 30px;
+  height: 30px;
+  background: #ed213a;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-top: 25px;
+  margin-left: -15px;
+}
+
+.timeline-item {
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 55%;
+}
+
+.title-right {
+  text-align: right;
+}
+
+/* client review styling */
+#my-client {
+  background-color: #ed213a;
+  text-align: center;
+}
+
+#my-client h2 {
+  font-weight: 300;
+  color: #fff;
+}
+
+#my-client hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #fff;
+  border-width: 2px;
+  width: 20%;
+  height: 2px;
+}
+
+.title-client {
+  padding: 7% 0 0;
+}
+
+.image-client {
+  width: 15%;
+  border-radius: 100%;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 -4px 10px 0 rgba(0, 0, 0, 0.2), -4px 10px 50px rgba(0, 0, 0, 0.19);
+  margin: 30px;
+}
+
+.carousel-item {
+  padding: 3% 15% 7%;
+}
+
+.client-name {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.review {
+  margin-top: 20px;
+}
+
+/* project styling */
+#project {
+  padding: 7% 15%;
+}
+
+#project h2 {
+  font-weight: 600;
+  text-align: center;
+}
+
+#project hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #ed213a;
+  border-width: 2px;
+  width: 20%;
+  height: 2px;
+}
+
+.title-project {
+  margin-bottom: 50px;
+}
+
+.container-project {
+  box-shadow: 10px 20px 25px -15px rgba(0, 0, 0, 0.3);
+}
+
+.card-body {
+  background-color: #f5f5f5;
+}
+
+.btn-center {
+  margin: 0 auto;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.project-container {
+  padding: 10px;
+}
+
+/* footer styling */
+.container-footer {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+#footer h2 {
+  font-weight: 600;
+  text-align: center;
+}
+
+#footer hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: #ed213a;
+  border-width: 2px;
+  width: 20%;
+  height: 2px;
+}
+
+#footer .row hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.title-footer {
+  margin-bottom: 50px;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-link {
+  color: #fff;
+}
+
+.footer-link:hover {
+  color: #ed213a;
+}
+
+.footer-icon {
+  margin: 10px 20px;
+}
+
+#user,
+#inputEmail,
+#message {
+  border-radius: 0;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.btn-footer {
+  background-color: #ed213a;
+  color: #fff;
+  border-radius: 0;
+}
+
+.btn-footer:hover {
+  background-color: #c31432;
+  color: #fff;
+}
+
+@media (max-width: 1000px) {
+  .navigasi {
+    text-align: center;
+  }
+
+  .body-about {
+    text-align: center;
+  }
+
+  .img-about {
+    text-align: center;
+  }
+
+  .timeline::after {
+    left: 0;
+  }
+
+  .timeline-content {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 25px;
+  }
+
+  .timeline-img {
+    left: 0;
+  }
+
+  .right {
+    left: 0;
+  }
+
+  .copyright {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .image-client {
+    width: 30%;
+  }
+}
